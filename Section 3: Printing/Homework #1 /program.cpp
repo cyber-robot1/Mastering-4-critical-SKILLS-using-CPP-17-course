@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// solution:
+// solution (output of this code will be like that):
 
 /*
 
