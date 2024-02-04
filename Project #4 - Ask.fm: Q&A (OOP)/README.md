@@ -1,1 +1,1 @@
-this directory contains my own homework solutions for this section.
+this directory contains my own implementation for <b>Ask.fm: Q&A (OOP)</b> project.
