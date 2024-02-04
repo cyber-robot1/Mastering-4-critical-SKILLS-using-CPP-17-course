@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 // solution (output of this code will be like that):
 
 /*
@@ -15,6 +12,9 @@ endl
 Practice makes perfect
 */
 
+
+#include <iostream>
+using namespace std;
 
 int main()
 {
