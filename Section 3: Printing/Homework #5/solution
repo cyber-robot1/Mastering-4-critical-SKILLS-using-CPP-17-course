@@ -1,7 +1,7 @@
 1. #include <iostream>
 2. you must print inside the main function only
 3. main "main function is case sensitive"
-4. a missed semicolon ";" 
+4. a missed semicolon ";"
 5. you can't but a double quotes inside a double quotes
 6. a single left shift operator, you must write a double one
 7. it's "endl" keyword not "end"
@@ -9,3 +9,5 @@
 9. you write a right shift operator instead of left shift with cout
 10. you wrote out instead of cout
 11. you wrote a single left shift operator instead of a double one
+12. add return 0;
+13. add a closed-braces
