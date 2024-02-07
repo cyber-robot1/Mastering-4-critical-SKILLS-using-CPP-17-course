@@ -2,7 +2,7 @@
 2. you must print inside the main function only
 3. main "main function is case sensitive"
 4. a missed semicolon ";"
-5. you can't but a double quotes inside a double quotes
+5. you can't but a double quotes inside a double quotes, but a \"example\"
 6. a single left shift operator, you must write a double one
 7. it's "endl" keyword not "end"
 8. you wrote a an empty double quote, a string outside the double quotes, and another empty double quote
