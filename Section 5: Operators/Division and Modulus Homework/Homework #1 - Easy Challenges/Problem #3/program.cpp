@@ -10,9 +10,7 @@ int main()
 {
     int x, y;
     cin >> x >> y;             
-    int result = x / y;        
-    result *= y;
-    cout << x - result << "\n";
+    cout << x - (x / y) * y;
 
     return 0;
 }
