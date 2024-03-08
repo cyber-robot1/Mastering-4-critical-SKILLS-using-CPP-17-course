@@ -4,19 +4,18 @@ Date: 8/3/2024
 */
 
 #include <iostream>
-using namespace std; 
+using namespace std;  
 
 int main()
-{
-    int X;
-    cin >> X;
-    
-    int i = 1;
-    while (i <= X)
+{   
+    int x;
+    cin >> x;
+
+    int start = 3;
+    while (start <= x)
     {
-        if (i % 3 == 0)
-            cout << i << " ";
-        i++;
+        cout << start << " ";
+        start += 3;
     }
     
     return 0;
