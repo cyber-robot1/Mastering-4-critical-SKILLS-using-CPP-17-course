@@ -5,7 +5,7 @@ int main()
 {
     int X;
     cin >> X;
-
+    
     int i = 1;
     while (i <= X)
     {
