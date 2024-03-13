@@ -10,6 +10,7 @@ int main()
 {
     int n;
     cin >> n;
+    
     int start = 1, tmp;
     while (start <= n)
     {
