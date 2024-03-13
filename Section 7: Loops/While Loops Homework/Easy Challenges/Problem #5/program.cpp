@@ -29,7 +29,7 @@ int main()
         }
         start++;
     }
-    cout << sumODD / noODD << " " << sumEVEN / noEVEN;
+    cout << (double)sumODD / noODD << " " << (double)sumEVEN / noEVEN;
     
     return 0;
 }
