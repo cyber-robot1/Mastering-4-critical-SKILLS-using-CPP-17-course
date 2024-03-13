@@ -19,15 +19,12 @@ int main()
         tmp_spaces = spaces;
         while (tmp_spaces--)
             cout << " ";
-
         tmp_start = start;
         while (tmp_start--)
             cout << '*';
-
         tmp_spaces = spaces;
         while (tmp_spaces--)
             cout << " ";
-
         cout << endl;
 
         start += 2;
@@ -44,15 +41,12 @@ int main()
         tmp_spaces = spaces;
         while (tmp_spaces--)
             cout << " ";
-
         tmp_start = start;
         while (tmp_start--)
             cout << '*';
-
         tmp_spaces = spaces;
         while (tmp_spaces--)
             cout << " ";
-
         cout << endl;
 
         start -= 2;
