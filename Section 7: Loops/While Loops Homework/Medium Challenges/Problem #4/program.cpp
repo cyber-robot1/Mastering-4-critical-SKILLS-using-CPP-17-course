@@ -25,11 +25,8 @@ int main()
                 mn = num;
                 flag = false;
             }
-            else
-            {
-                if (num <= mn)
-                    mn = num;
-            }
+            else if (num <= mn)
+                mn = num;
         }
         cout << mn << endl;
     }
