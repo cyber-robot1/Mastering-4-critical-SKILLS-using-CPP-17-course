@@ -19,13 +19,10 @@ int main()
         {
             int num, cross = 1, tmp = pos;
             cin >> num;
-            if (pos == 1)
-                cross = num;
-            else
-            {
-                while (tmp--)
-                    cross *= num;
-            }
+
+            while (tmp--)
+                cross *= num;
+
             sum += cross;
             pos++;
         }
