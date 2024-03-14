@@ -12,18 +12,16 @@ int main()
     cin >> n;
 
     int first = 0, last = 1, sum = 0;
+
+    cout << first << " " << last << " ";
     for (int i = 2; i <= n; i++)
     {
         sum = first + last;
         first = last;
         last = sum;
+        
+        cout << sum << " ";
     }
-    if (n == 0)
-        cout << first;
-    else if (n == 1)
-        cout << last;
-    else
-        cout << sum;
     
     return 0;
 }
