@@ -14,17 +14,16 @@ int main()
     {
         int n;
         cin >> n;
-        int sum = 0, pos = 1;
+        int sum = 0;
         for (int j = 1; j <= n; j++)
         {
             int num, cross = 1;
             cin >> num;
 
-            for (int k = 1; k <= pos; k++)
+            for (int k = 1; k <= j; k++)
                 cross *= num;
 
             sum += cross;
-            pos++;
         }
         cout << sum << endl;
     }
