@@ -12,20 +12,18 @@ int main()
     cin >> n;
     for (int i = 2; i <= n; i++)
     {
-        int flag = 2;
+        int flag = 0;
         for (int j = 2; j <= sqrt(i); j++)
         {
             if (i % j == 0)
+            {
                 flag++;
+                break;
+            }
         }
-        if (flag == 2)
-        {
-            if (i == n)
-                cout << i;
-            else
-                cout << i << ",";
-        }
-    }
+        if (!flag)
+            cout << i << ",";
+    }   
     
     return 0;
 }
