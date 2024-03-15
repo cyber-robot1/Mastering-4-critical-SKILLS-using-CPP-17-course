@@ -11,17 +11,17 @@ int main()
     int n;
     cin >> n;
 
-    int flag = 2;
+    int flag = 0;
     for (int i = 2; i <= sqrt(n); i++)
     {
         if (n % i == 0)
             flag++;
     }
 
-    if (flag == 2)
-        cout << "YES";
-    else
+    if (flag)
         cout << "NO";
+    else
+        cout << "YES";
     
     return 0;
 }
