@@ -8,19 +8,14 @@ using namespace std;
 
 int main()
 {
-    int x, y;
-    cin >> x >> y;
-
     int pairs = 0;
-    for (int i = 1; i <= x; i++)
+    for (int x = 50; x <= 300; x++)
     {
-        for (int j = i; j <= y; j++)
+        for (int y = 70; y <= 400; y++)
         {
-            bool con1 = (i >= 50 && i <= 300);
-            bool con2 = (j >= 70 && j <= 400);
-            bool con3 = (i < j);
-            bool con4 = ((i + j) % 7 == 0);
-            if (con1 && con2 && con3 && con4)
+            bool con1 = (x < y);
+            bool con2 = ((x + y) % 7 == 0);
+            if (con1 && con2)
                 pairs++;
         }
     }
