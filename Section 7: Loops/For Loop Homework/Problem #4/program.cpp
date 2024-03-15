@@ -10,18 +10,22 @@ int main()
 {
     int n;
     cin >> n;
-
-    int flag = 2;
-    for (int i = 2; i <= n / 2; i++)
-    {
-        if (n % i == 0)
-            flag++;
-    }
-
-    if (flag == 2)
-        cout << "YES";
-    else
+    if (n == 0 || n == 1)
         cout << "NO";
+    else
+    {
+        int flag = 0;
+        for (int i = 2; i <= n / 2; i++)
+        {
+            if (n % i == 0)
+                flag++;
+        }
+
+        if (flag)
+            cout << "NO";
+        else
+            cout << "YES";
+    }
     
     return 0;
 }
