@@ -8,19 +8,16 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d;
-    cin >> a >> b >> c >> d;
-
     int pairs = 0;
-    for (int i = 1; i <= a; i++)
+    for (int a = 1; a <= 200; a++)
     {
-        for (int j = i; j <= b; j++)
+        for (int b = 1; b <= 200; b++)
         {
-            for (int k = j; j <= c; k++)
+            for (int c = 1; c <= 200; c++)
             {
-                int z = i + j - k;
-                bool c1 = ((i >= 1 && i <= 200) && (j >= 1 && j <= 200) && (k >= 1 && k <= 200) && (z >= 1 && z <= 200));
-                if (c1)
+                int d = a + b - c;
+                bool con = (d >= 1 && d <= 200);
+                if (con)
                     pairs++;
             }
         }
