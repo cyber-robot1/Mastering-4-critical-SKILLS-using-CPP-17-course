@@ -10,7 +10,7 @@ int main()
 {
     int n;
     cin >> n;
-    if (n == 0 || n == 1)
+    if (n <= 1)        // there're no negative prime numbers, also (0,1) aren't.
         cout << "NO";
     else
     {
@@ -28,7 +28,7 @@ int main()
             cout << "NO";
         else
             cout << "YES";
-    }
+    } 
     
     return 0;
 }
