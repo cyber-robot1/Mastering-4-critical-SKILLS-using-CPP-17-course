@@ -13,7 +13,7 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i++)
         cin >> arr[i];
-
+    /***********************************************/
     // First Max:
     int pos1 = 0;
     for (int i = 1; i < n; i++)
