@@ -1,6 +1,6 @@
 /*
 Author: Karim Tarek Ibrahim
-program: Find first, second and third maximum elements in a given array.
+program: Find First, Second and Third Maximum Elements in a Given Array.
 Date: 20/3/2024
 */
 
