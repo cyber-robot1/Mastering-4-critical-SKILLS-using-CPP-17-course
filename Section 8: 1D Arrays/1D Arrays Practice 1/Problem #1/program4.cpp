@@ -14,16 +14,16 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i++)
         cin >> arr[i];
-
-    // first max
+    /***************************************************************/
+    // First max:
     int pos1 = 0;
     for (int i = 1; i < n; i++)
     {
         if (arr[i] >= arr[pos1])
             pos1 = i;
     }
-
-    // second max
+    /***************************************************************/
+    // Second max:
     int pos2 = 0;
     for (int i = 0; i < n; i++)
     {
@@ -38,8 +38,8 @@ int main()
         if (arr[i] >= arr[pos2] && i != pos1)
             pos2 = i;
     }
-
-    // third max
+    /***************************************************************/
+    // Third max:
     int pos3 = 0;
     for (int i = 0; i < n; i++)
     {
@@ -54,7 +54,7 @@ int main()
         if (arr[i] >= arr[pos3] && i != pos1 && i != pos2)
             pos3 = i;
     }
-
+    /***************************************************************/
     cout << arr[pos1] << " " << arr[pos2] << " " << arr[pos3];
     
     return 0;
