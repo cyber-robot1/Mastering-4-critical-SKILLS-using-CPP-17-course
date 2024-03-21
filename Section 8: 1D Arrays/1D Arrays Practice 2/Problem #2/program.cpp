@@ -3,11 +3,10 @@ Author: Karim Tarek Ibrahim
 Date: 21/3/2024
 */
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int arr[200];
-int freq[200];
+int arr[200], freq[200];
 int main()
 {
     int n;
