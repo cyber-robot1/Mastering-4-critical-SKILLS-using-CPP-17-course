@@ -31,7 +31,7 @@ int main()
         }
     }
 
-    cout << mxRepeatE;
+    cout << mxRepeatE << " repeated " << mxValue << " times";
     
     return 0;
 }
