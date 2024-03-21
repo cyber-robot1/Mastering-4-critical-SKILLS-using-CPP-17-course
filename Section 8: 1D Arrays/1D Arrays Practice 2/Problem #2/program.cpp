@@ -1,6 +1,6 @@
 /*
 Author: Karim Tarek Ibrahim
-Date: 21/3/2024
+Date: 22/3/2024
 */
 
 #include <iostream>
@@ -33,12 +33,16 @@ int main()
             mx = arr[i];
     }
 
-    // most frequent element 
-    int mxFreq = freq[mx];
+    // most frequent element
+    int mxFreq = 0;
+    int MX = freq[mn];
     for (int i = mn; i <= mx; i++)
     {
-        if (freq[i] >= mxFreq)
-            mxFreq = freq[i];
+        if (freq[i] >= MX)
+        {
+            MX = freq[i];
+            mxFreq = i;
+        }
     }
 
     cout << mxFreq;
