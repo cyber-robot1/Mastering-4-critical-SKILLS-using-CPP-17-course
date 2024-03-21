@@ -3,7 +3,7 @@ Author: Karim Tarek Ibrahim
 Date: 21/3/2024
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int arr[200], freq[200];
