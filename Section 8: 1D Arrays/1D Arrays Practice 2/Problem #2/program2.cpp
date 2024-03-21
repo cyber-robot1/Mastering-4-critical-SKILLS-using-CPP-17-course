@@ -18,13 +18,16 @@ int main()
     }
 
     // most frequent element
-    int mxFreq = freq[0];
+    int mxFreq = 0;
+    int mx = freq[0];
     for (int i = 0; i < 151; i++)
     {
-        if (freq[i] >= mxFreq)
-            mxFreq = freq[i];
+        if (freq[i] >= mx)
+        {
+            mx = freq[i];
+            mxFreq = i;
+        }
     }
-
     cout << mxFreq;
     
     return 0;
