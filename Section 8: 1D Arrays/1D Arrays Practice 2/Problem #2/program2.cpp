@@ -28,7 +28,7 @@ int main()
             mxFreq = i;
         }
     }
-    cout << mxFreq;
+    cout << mxFreq << " repeated " << mx << " times";
     
     return 0;
 }
