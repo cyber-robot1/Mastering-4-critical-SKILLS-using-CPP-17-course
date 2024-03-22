@@ -17,6 +17,7 @@ int main()
         cin >> num;
         freq[num]++;
     }
+    
     for (int i = 0; i < 501; i++)
     {
         if (freq[i] != 0)
