@@ -14,6 +14,9 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
+        if (arr[i] == 0)
+            freq[arr[i]]++;
+
         int num = arr[i];
         while (num)
         {
