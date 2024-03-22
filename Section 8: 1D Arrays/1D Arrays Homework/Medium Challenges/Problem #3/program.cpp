@@ -1,5 +1,6 @@
 /*
 Author: Karim Tarek Ibrahim
+Note: we wanna optimize this solution by get rid of the nested loop.
 Date: 22/3/2024
 */
 
