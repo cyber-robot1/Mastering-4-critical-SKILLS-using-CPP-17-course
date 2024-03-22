@@ -1,13 +1,13 @@
 /*
 Author: Karim Tarek Ibrahim
 Note: Optimized than program.cpp because we get rid of the nested loop by shifting the negative values, then return it to its original while printing.
-Date: 22/3/2024
+Date: 23/3/2024
 */
 
 #include <iostream>
 using namespace std;
 
-int arr[201], freq[271];
+int arr[201], freq[771];
 int main()
 {
     int n;
