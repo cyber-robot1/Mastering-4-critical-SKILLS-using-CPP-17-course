@@ -15,6 +15,9 @@ int main()
     {
         int num;
         cin >> num;
+        if (num == 0)
+            freq[num]++;
+
         int tmp = num;
         while (tmp)
         {
