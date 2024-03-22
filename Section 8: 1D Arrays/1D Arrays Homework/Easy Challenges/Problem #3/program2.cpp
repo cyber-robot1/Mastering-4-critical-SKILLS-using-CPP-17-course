@@ -1,5 +1,6 @@
 /*
 Author: Karim Tarek Ibrahim
+Solution without using array.
 Date: 22/3/2024
 */
 
