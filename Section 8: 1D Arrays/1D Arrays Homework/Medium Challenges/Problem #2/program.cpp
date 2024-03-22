@@ -19,7 +19,6 @@ int main()
     {
         int x;
         cin >> x;
-
         bool isFound = false;
         for (int i = n - 1; i >= 0; i--)
         {
