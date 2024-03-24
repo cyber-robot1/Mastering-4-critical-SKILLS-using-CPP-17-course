@@ -10,8 +10,7 @@ int main()
 {
     string str, s;
     cin >> str >> s;
-    int sSZ = s.size();
-
+    
     int start = 0;
     for (int i = 0; i < str.size(); i++)
     {
@@ -23,7 +22,7 @@ int main()
     }
 
     bool isSubstring = true;
-    for (int i = start, j = 0; j < sSZ; i++, j++)
+    for (int i = start, j = 0; j < s.size(); i++, j++)
     {
         if (str[i] != s[j])
         {
