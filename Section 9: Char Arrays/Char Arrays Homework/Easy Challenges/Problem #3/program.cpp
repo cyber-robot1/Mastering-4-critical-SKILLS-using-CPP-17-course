@@ -1,5 +1,6 @@
 /*
 Author: Karim Tarek Ibrahim
+Note: That test case: str="AABCD" & s="ABC" fail the the code (fix it).
 Date: 24/3/2024
 */
 
