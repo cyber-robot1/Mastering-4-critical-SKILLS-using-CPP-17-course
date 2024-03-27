@@ -18,7 +18,7 @@ int main()
         num = num * 10 + digit;
     }
 
-    cout << num * 3;
+    cout << num << " " << num * 3;
     
     return 0;
 }
