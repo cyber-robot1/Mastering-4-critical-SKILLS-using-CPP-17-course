@@ -5,7 +5,7 @@ Date: 29/3/2024
 #include <iostream>
 using namespace std;
 
-int arr[10][10];
+int arr[100][100];
 int main()
 {
 	int row, col;
