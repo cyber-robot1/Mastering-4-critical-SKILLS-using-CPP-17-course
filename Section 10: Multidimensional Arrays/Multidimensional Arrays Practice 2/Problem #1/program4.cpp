@@ -20,9 +20,7 @@ int main()
 			cin >> arr[i][j];
 	}
 
-	int mxcellSUM = arr[0][0];
-
-	int i = 0, j = 0;
+	int i = 0, j = 0, mxcellSUM = arr[0][0];
 	while (true)
 	{
 		int NX = 0, NY = 0, mx;
@@ -50,11 +48,9 @@ int main()
 					}
 				}
 			}
-
 		}
 		if (NX == 0 && NY == 0)
 			break;
-
 		i = NX;
 		j = NY;
 		mxcellSUM += mx;
